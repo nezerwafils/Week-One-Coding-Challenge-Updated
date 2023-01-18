@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+.title {
+  width: 80%;
+  height: 50%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin: 2rem auto;
+  padding: 10px;
+  font-size: 30px;
+}
+.hed {
+  margin-bottom: 1rem;
+}
+.dev {
+  margin: 1rem;
+}
+span {
+  color: blue;
+}
+.about {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.notes {
+  width: 80%;
+  height: 50%;
+  border: 1px dashed blue;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4rem auto;
+  padding: 10px;
+}
+.connect {
+  color: blue;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.images img {
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.images img:hover {
+  border: 1px solid white;
+  transform: scale(0.9);
+}
+.images {
+  text-align: center;
+}
+.album {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.album h2 {
+  margin-top: 4rem;
+}
+.photos img {
+  width: 30rem;
+  margin: 4rem;
+}
+.image-1 {
+  border: 4px solid black;
+  transform: rotate(10deg);
+  transition: all 0.5s;
+}
+.image-1:hover {
+  transform: rotate(-10deg);
+}
+.image-2 {
+  border: 4px dashed red;
+  transform: rotate(15deg);
+  transition: all 0.5s;
+}
+.image-2:hover {
+  transform: rotate(-10deg);
+}
+.image-4 {
+  border: 4px solid blue;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: all 0.5s;
+}
+.image-4:hover {
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.do {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4rem;
+}
+.buttons {
+  text-align: center;
+}
+button {
+  padding: 1rem 2rem;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  font-size: 1.5rem;
+}
+.btn-1 {
+  background-color: blue;
+}
+.btn-2 {
+  background-color: transparent;
+}
+.btn-3 {
+  background-color: blue;
+}
+.conc {
+  margin: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.last {
+  width: 80%;
+  height: 50%;
+  border: 1px dashed blue;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4rem auto;
+  padding: 10px;
+}
